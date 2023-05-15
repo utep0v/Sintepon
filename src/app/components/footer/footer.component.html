@@ -1,0 +1,11 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" *ngFor="let index of text | async">
+        <img src="./assets/images/logo.svg" alt="">
+        <p>{{ index.address }}</p>
+        <p><b>{{ index.phone }}</b></p>
+      </div>
+    </div>
+  </div>
+</footer>
